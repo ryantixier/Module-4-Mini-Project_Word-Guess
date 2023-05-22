@@ -1,15 +1,40 @@
-Build a Word Guess Game
+BUILD A WORD-GUESS GAME
 
-Rules - user attempts to guess the hidden word, has 10 seconds to do so(timer), if user guesses correctly we increment wins, if user does not guess correct word in time we increment losses
-what data do i need to track? variables    wins, losses, correct letters guessed, count of timer, need to store refernces to elements, words to utilize and randomize(array, Math.floor(), Math.random() - index values)
+~~~
 
-what needs to be stored in localStorage, store wins, losses
+RULES:
+- user attempts to guess the hidden word, has 10 seconds to do so (timer), 
+- if user guesses correctly we increment wins, if user does not guess correct word in time we increment losses
 
-what functions can i create?   
-getWord() - function is responsible for retriving word and display with _ (underscore)
-chosenWord = "boolean"  - data type of string,  
-.split() - array of substrings
-turn the chars into an underscore to display
-for loop  _
-checkCar(letter) - function is responsible for cheking if the char pressed is included in that word
-what event listeners do  i need?  1) key events?   2) clear the scores
+~~~
+
+WHAT DATA DO I NEED TO TRACK?
+Variables: 
+- wins
+- losses
+- correct letters guessed
+- count of timer
+- need to store refernces to elements
+- words to utilize and randomize(array, Math.floor(), Math.random() - index values)
+
+~~~
+
+WHAT NEEDS TO BE STORED IN localStorage?
+- Wins
+- Losses
+
+~~~
+
+WHAT FUNCTIONS CAN I CREATE?
+
+- getWord() - function is responsible for retriving word and display with _ (underscore)
+... var chosenWord = "boolean"  - data type of string,  
+- split() - array of substrings
+- turn the chars into an underscore to display for loop  _
+- checkCar(letter) - function is responsible for cheking if the char pressed is included in that word
+
+~~~
+
+WHAT EVENT LISTENERS DO I NEED?
+- key events? (keyup/keydown)  
+- clear the scores
