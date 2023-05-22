@@ -26,12 +26,12 @@ WHAT NEEDS TO BE STORED IN localStorage?
 ~~~
 
 WHAT FUNCTIONS CAN I CREATE?
-
 - getWord() - function is responsible for retriving word and display with _ (underscore)
 ... var chosenWord = "boolean"  - data type of string,  
 - split() - array of substrings
 - turn the chars into an underscore to display for loop  _
 - checkCar(letter) - function is responsible for cheking if the char pressed is included in that word
+- timer
 
 ~~~
 
